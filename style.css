@@ -25,8 +25,7 @@ footer{
     font-style: italic;
 
 }
-div {
+div,figure {
     text-align: center;
-    padding: 3px;
     font: normal 15pt monospace ;
 }
