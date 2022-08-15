@@ -5,7 +5,7 @@
         var img = window.document.getElementById("imagem")
         var periodo = window.document.getElementById("periodo")
         var data = new Date()
-        var hora = 18//data.getHours()
+        var hora = data.getHours()
         var minuto = data.getMinutes()
         var segundos = data.getSeconds()
 
@@ -29,7 +29,7 @@
             periodo.innerHTML = "Determinação, coragem e autoconfiança são fatores decisivos para o sucesso. Se estamos possuídos por uma inabalável determinação, conseguiremos superá-los. Independentemente das circunstâncias, devemos ser sempre humildes, recatados e despidos de orgulho."
         }else{
 
-            msg.innerHTML =  "<p>BOA MADRUGADAAA !!!</strong></p> "
+            msg.innerHTML +=  "<p>BOA MADRUGADAAA !!!</strong></p> "
             img.src = "img/madrugada.png"
             document.body.style.background = "#483e4a"
             periodo.innerHTML = "Lute. Acredite. Conquiste. Perca. Deseje. Espere. Alcance. Invada. Caia. Seja tudo o quiser ser, mas, acima de tudo, seja você sempre."
